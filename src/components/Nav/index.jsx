@@ -1,12 +1,11 @@
 import React from 'react';
 import { Container, Header, Section, Footer} from './styled'
 
-import { AiOutlineGithub, AiFillLinkedin } from 'react-icons/ai'
+import { AiOutlineGithub, AiFillLinkedin, AiOutlineInstagram} from 'react-icons/ai'
 
-const Dashboard = () => {
-  return( 
-    <body>
-          <Container>
+const Nav = () => {
+  return(   
+  <Container>
       <Header>
         <img src="https://avatars.githubusercontent.com/u/68343542?s=460&u=83673968d8696382ff401dcdb68a213a8ba03d9b&v=4" 
         alt="bismarck"/>
@@ -23,13 +22,15 @@ const Dashboard = () => {
       <Footer>
         <AiOutlineGithub size={30} color="white"/>
         <AiFillLinkedin  size={30} color="white"/>  
+        <AiOutlineInstagram size={30} color="white"/>  
       </Footer>      
-    </Container>
+  </Container>
+  
 
-    </body>
+    
   )
 
    
 }
 
-export default Dashboard;
+export default Nav;

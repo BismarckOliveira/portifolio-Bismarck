@@ -8,7 +8,6 @@ height: 100vh;
 flex-direction: column;
 justify-content: space-between;
 background: #2F4F4F;
-position: fixed;
 padding: 20px;
 
 `;
@@ -26,11 +25,13 @@ img{
   border-radius: 50%;
   width: 120px;
   margin-bottom: 20px;
+  
 }
 
 h1{
    font-size: 20px;
    color: white;
+  
  }
 `;
 
@@ -41,6 +42,7 @@ align-items: center;
 
 ul{
   li {
+    color: white;
     margin-bottom: 10px;
     font-size: 24px;
   }
