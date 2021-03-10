@@ -47,7 +47,6 @@ export const History = styled.div`
 
   background: #f6f5f7;
   display: flex;
-  
   padding: 80px 30px 80px 30px;
   
   h1{
@@ -64,8 +63,6 @@ export const History = styled.div`
 `;
 
 export const Project = styled.div`
-
- 
   background: #f6f5f7;
   display: flex;
   flex-direction: column;
