@@ -7,6 +7,7 @@ const App = () => (
    <Container>
       <Nav />
       <Intro/>
+      
    </Container>
   </>
   )
