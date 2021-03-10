@@ -1,14 +1,17 @@
 import styled from 'styled-components';
 
 
+
 export const Container = styled.div`
-max-width: 30vh;
+width: 30vh;
 display: flex;
-height: 100vh;
+height: 100%;
 flex-direction: column;
 justify-content: space-between;
-background: #2F4F4F;
-padding: 20px;
+background: #0f4540;
+padding: 30px;
+position: fixed;
+
 
 `;
 
@@ -29,9 +32,7 @@ img{
 }
 
 h1{
-   font-size: 20px;
-   color: white;
-  
+   font-size: 15px;    
  }
 `;
 

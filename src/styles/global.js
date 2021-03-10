@@ -13,7 +13,7 @@ export default createGlobalStyle`
 body{
 
   font-family: 'Roboto', serif;
-  
+  color: white;
 
   ol, ul {
 	list-style: none;
