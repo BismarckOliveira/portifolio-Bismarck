@@ -105,3 +105,48 @@ background: #f6f5f7;
     }
   }
 `;
+
+export const Skills = styled.div`
+padding-top: 2rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background: #f6f5f7;
+
+h1{
+    color: black;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.skills{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+    margin: 20px;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 40px;
+    color: black;
+ 
+  img{
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5px;
+  }
+   
+}
+
+`;

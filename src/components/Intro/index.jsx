@@ -1,6 +1,13 @@
 import React from 'react';
-import ProjetoGit from '../../images/ProjetoGit.PNG'
-import { Container , History, Project} from './styled';
+import ProjetoGit from '../../images/ProjetoGit.PNG';
+import hmtl5 from '../../images/html.png';
+import CSS3 from '../../images/css3.png';
+import git from '../../images/git.png';
+import typescript from '../../images/typescripet.png';
+import javascript from '../../images/javascript.png';
+import node from '../../images/node.png';
+import react from '../../images/react.png';
+import { Container , History, Project, Skills} from './styled';
 
 
 const Intro = () => {
@@ -40,6 +47,42 @@ const Intro = () => {
          </li>
        </ul>
      </Project>
+     <Skills>
+      <h1>Skills</h1>
+      <dir class='skills'>
+        <div class='card'>
+          <img src={hmtl5} alt="logohtml"/>
+          <p>HTML5</p>
+        </div>
+        <div class='card'>
+          <img src={CSS3} alt="logoCSS"/>
+          <p>CSS3</p>
+        </div>
+        <div class='card'>
+          <img src={git} alt="Github"/>
+          <p>Git</p>
+        </div>
+        <div class='card'>
+          <img src={typescript} alt="typescript"/>
+          <p>Typescript</p>
+        </div>
+        <div class='card'>
+          <img src={javascript} alt="typescript"/>
+          <p>Java Script</p>
+        </div>
+        <div class='card'>
+          <img src={node} alt="typescript"/>
+          <p>Node</p>
+        </div>
+        <div class='card'>
+          <img src={react} alt="typescript"/>
+          <p>Node</p>
+        </div>
+        <div class='card'>
+          
+        </div>
+      </dir>
+     </Skills>
      
      
     </Container>
