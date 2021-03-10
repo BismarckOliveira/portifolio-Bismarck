@@ -4,6 +4,7 @@ import banner from '../../images/banner.png';
 export const Container = styled.div`
 width: 100%;
 margin-left: 30vh;
+background: #f6f5f7;
 
 
 header {
@@ -44,11 +45,10 @@ section{
 
 export const History = styled.div`
 
-
   background: #f6f5f7;
   display: flex;
   
-  padding: 80px 30px 0px 30px;
+  padding: 80px 30px 80px 30px;
   
   h1{
     color: black;
@@ -65,13 +65,12 @@ export const History = styled.div`
 
 export const Project = styled.div`
 
-
-background: #f6f5f7;
+ 
+  background: #f6f5f7;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 80px 30px 0px 30px;
-  
+  padding: 80px 30px 80px 30px;
 
   
   h1{
