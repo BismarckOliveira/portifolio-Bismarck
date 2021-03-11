@@ -12,6 +12,10 @@ background: #0f4540;
 padding: 30px;
 position: fixed;
 
+@media (max-width: 800px){
+  display: none;
+  
+}
 
 `;
 

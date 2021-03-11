@@ -14,9 +14,11 @@ const Intro = () => {
   return (
     <Container>
      <header>
-      <span>Bismarck Oliveira</span>
-      <h1>Desenvolvedor Front End</h1>
-      <p>"Ser desenvolvedor é uma viagem onde a próxima parada é a solução de um problema”</p>
+        <div>
+          <span>Bismarck Oliveira</span>
+          <h1>Desenvolvedor Front End</h1>
+          <p>"Ser desenvolvedor é uma viagem onde a próxima parada é a solução de um problema”</p>
+        </div>   
      </header>
      <History>
        <h1>Minha História</h1>

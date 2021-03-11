@@ -9,20 +9,27 @@ background: #f6f5f7;
 
 header {
   display: flex;
+  flex: 1;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 80px 0;
   background-image: url(${banner});
+  
+  div {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   
+    span{
+    font-size: 14px;
+    }
 
-  span{
-   font-size: 14px;
-
+    h1{
+      padding-bottom: 8px;
+    }
   }
-
-  h1{
-    padding-bottom: 8px;
-  }
+ 
 }
 
 section{
@@ -41,6 +48,21 @@ section{
     color: black;
   }
 }
+
+@media (max-width: 800px){
+  margin: 0;
+  width: 100%;
+
+  div{
+     padding: 0px 25px;
+    p{
+      
+    }
+  }
+
+}
+
+
 `;
 
 export const History = styled.div`
@@ -49,15 +71,30 @@ export const History = styled.div`
   display: flex;
   padding: 80px 30px 80px 30px;
   
+  
   h1{
     color: black;
     font-size: 2.5rem;
   }
 
   p{
-    margin-left: 120px;
+    padding-left: 120px;
     color: black;
   }
+
+  @media (max-width: 800px){
+  flex-direction: column;
+  align-items: center;
+  
+  h1{
+    padding-bottom: 20px;
+  }
+
+  p{
+    padding-left: 0;
+  }
+  
+}
 
 
 `;
@@ -84,6 +121,7 @@ export const Project = styled.div`
   ul{
     display: flex;
     width: 100%;
+    flex-wrap: wrap;
     
     li{
       display: flex;
@@ -91,7 +129,7 @@ export const Project = styled.div`
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      height: 200px;
+      height: 180px;
       margin-bottom: 2rem;
       
       img{
@@ -100,6 +138,13 @@ export const Project = styled.div`
       }
     }
   }
+
+  
+@media (max-width: 800px){
+
+ 
+
+}
 `;
 
 export const Skills = styled.div`
