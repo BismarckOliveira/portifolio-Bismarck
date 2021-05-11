@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../../images/logo.svg';
-import { HeaderContent } from './HeaderContent';
+import { NavResponsive } from './NavResponsive';
 import { Container, Content} from './styles'
 
 export const Header: React.FC = () => {
@@ -12,15 +12,11 @@ export const Header: React.FC = () => {
             <img src={logo} alt="LogoBismarck" />
             <h2>Bismarck <span>Oliveira</span></h2>  
           </div>
-        
-          <ul>
-            <li>Sobre</li>
-            <li>Projetos</li>
-            <li>Contato</li>
-          </ul>
+          <NavResponsive/>
+           
         </Content>
       </Container>
-      <HeaderContent />
+     
     </>   
   )
 }

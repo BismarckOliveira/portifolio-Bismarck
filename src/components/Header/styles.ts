@@ -2,6 +2,9 @@ import styled from 'styled-components';
 
 export const Container = styled.header`
  height: 6rem;
+ position: fixed;
+ background: var(--gray-900);
+ width: 100%;
 
 `;
 
@@ -35,24 +38,5 @@ font-size: 1.25rem;
   }
  }
 
-ul {
-  display: flex;
-  list-style: none;
-
-  li{
-    cursor: pointer;
-    font-weight: 300;
-    transition: color 0.2s;
-
-    & + li{
-    margin-left: 3rem;
-    
-  }
-
-  &:hover{
-    color: var(--green-500);
-  }
- }
- 
-}
+  
 `;
